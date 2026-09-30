@@ -1,0 +1,14 @@
+name: Idea
+description: Suggest a feature or an improvement.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like photoprep to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What problem would it solve for you?

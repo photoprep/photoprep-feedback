@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report from the app
+    url: https://github.com/talafek96/photoprep
+    about: The app's Help menu is the easiest way, because it attaches the logs and versions for you.

@@ -1,0 +1,25 @@
+name: Bug report
+description: Something in photoprep did not work.
+labels: [bug]
+body:
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    id: version
+    attributes:
+      label: photoprep version and operating system
+      description: Reporting from the app's Help menu fills this in and attaches logs.
