@@ -29,6 +29,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           allowed_bots: 'photoprep-feedback-bot'
           allowed_non_write_users: '*'
+          show_full_output: true
           claude_args: |
             --model claude-sonnet-5-5
             --max-turns 15
