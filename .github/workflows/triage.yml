@@ -18,6 +18,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
       - uses: anthropics/claude-code-action@v1.0.238
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
