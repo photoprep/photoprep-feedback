@@ -1,4 +1,4 @@
-# Duplicate triage (photoprep docs/feedback.md, T186). Runs the official Claude Code action on each new
+# Duplicate triage (PicPrep docs/feedback.md, T186). Runs the official Claude Code action on each new
 # or reopened issue. Reports are filed by the photoprep-feedback-bot GitHub App, hence allowed_bots.
 name: triage
 on:

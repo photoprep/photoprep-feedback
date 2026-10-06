@@ -5,7 +5,7 @@ body:
   - type: textarea
     id: idea
     attributes:
-      label: What would you like photoprep to do?
+      label: What would you like PicPrep to do?
     validations:
       required: true
   - type: textarea
